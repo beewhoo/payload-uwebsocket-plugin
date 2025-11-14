@@ -73,7 +73,7 @@ The plugin has the following dependencies:
 
 Peer dependency:
 
-- `payload` - ^2.0.0
+- `payload` - ^2.0.0 || ^3.0.0 (tested with v2.30.1 and v3.64.0)
 
 ## Configuration
 

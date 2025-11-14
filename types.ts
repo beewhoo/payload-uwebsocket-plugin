@@ -1,5 +1,4 @@
 import { WebSocket } from "uWebSockets.js";
-import type { Payload } from "payload";
 
 /**
  * Event types that can be emitted

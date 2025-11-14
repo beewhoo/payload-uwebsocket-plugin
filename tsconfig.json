@@ -21,7 +21,8 @@
     "initUWebSocket.ts",
     "types.ts",
     "uWebSocketManager.ts",
-    "browser.ts"
+    "browser.ts",
+    "payload-types.d.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }

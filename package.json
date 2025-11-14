@@ -1,6 +1,6 @@
 {
   "name": "payload-uwebsocket-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A high-performance WebSocket plugin for Payload CMS using uWebSockets.js with Redis support for multi-instance deployments",
   "main": "dist/index.js",
   "browser": "dist/browser.js",

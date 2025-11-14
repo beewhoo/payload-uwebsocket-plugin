@@ -1,0 +1,53 @@
+{
+  "name": "payload-uwebsocket-plugin",
+  "version": "1.0.0",
+  "description": "A high-performance WebSocket plugin for Payload CMS using uWebSockets.js with Redis support for multi-instance deployments",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "payload",
+    "payloadcms",
+    "websocket",
+    "uwebsockets",
+    "realtime",
+    "redis",
+    "plugin",
+    "cms"
+  ],
+  "author": "Bibek Thapa",
+  "license": "MIT",
+  "peerDependencies": {
+    "payload": "^2.0.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.48.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.0.0",
+    "payload": "^3.64.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beewhoo/payload-uwebsocket-plugin.git"
+  },
+  "homepage": "https://github.com/beewhoo/payload-uwebsocket-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/beewhoo/payload-uwebsocket-plugin/issues"
+  }
+}

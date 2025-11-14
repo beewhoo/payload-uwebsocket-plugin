@@ -20,7 +20,8 @@
     "index.ts",
     "initUWebSocket.ts",
     "types.ts",
-    "uWebSocketManager.ts"
+    "uWebSocketManager.ts",
+    "browser.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }

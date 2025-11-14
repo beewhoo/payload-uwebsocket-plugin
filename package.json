@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A high-performance WebSocket plugin for Payload CMS using uWebSockets.js with Redis support for multi-instance deployments",
   "main": "dist/index.js",
+  "browser": "dist/browser.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
